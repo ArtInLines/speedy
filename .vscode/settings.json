@@ -1,8 +1,0 @@
-{
-    "files.associations": {
-        "*.pl": "prolog",
-        "*.rb": "ruby",
-        "ail.h": "c",
-        "ail_alloc.h": "c"
-    }
-}

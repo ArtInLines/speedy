@@ -41,20 +41,10 @@ There are currently 4 implemenations:
 
 ## Requirements
 
+Benchmarking is currently only implemented for x86-64 architectures.
+
 A CPU with SSE2 and SSSE3 extensions is required for the SIMD routines to work.
 
 For allocating memory, VirtualAlloc/mmap is currently used. An OS that doesn't support either of these thus requires minor changes.
 
 The code has been tested on Windows and Linux.
-
-## Results
-
-I encourage you to run this on your own machine, to reproduce these results.
-
-For a 2GB buffer, I got the following results, showing almost 10x speed-up by using SIMD:
-
-![Result for 2GB memory buffer](result_2GB.png)
-
-For a 32MB buffer, I got the following results, showing up to 14x speed-up by using SIMD:
-
-![Result for 32MB memory buffer](result_32MB.png)
