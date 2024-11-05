@@ -13,6 +13,8 @@ The major inspiration for this was Casey Muratori's "Computer Enhance" Course (h
 
 See `mem-copy` and `mem-reverse` folder respectively.
 
+Note: Make sure to download the submodule [ail](https://github.com/artInLines/ail) as well, by running `git submodule update --init`
+
 To be done...
 
 # Structure
